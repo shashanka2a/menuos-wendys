@@ -112,6 +112,35 @@ const menuItems: MenuItem[] = [
     category: "Frosty",
     allergies: ["Vegetarian"],
   },
+  // Add more items to make each category visible
+  {
+    id: "11",
+    name: "Biggie Bag",
+    image: "https://people.com/thmb/DRWbTb0Qj31ZrDH2-_ohQxBACUM%3D/1500x0/filters%3Ano_upscale%28%29%3Amax_bytes%28150000%29%3Astrip_icc%28%29%3Afocal%28749x0%3A751x2%29/Wendys-biggie-bag-tout-062124-c3b8ff6baf58410996f81d8329fb60b7.jpg",
+    category: "Burgers",
+    allergies: [],
+  },
+  {
+    id: "12",
+    name: "Apple Juice",
+    image: "https://wendys.ky/wp-content/uploads/2019/03/image-6.jpeg",
+    category: "Beverages",
+    allergies: ["Vegetarian"],
+  },
+  {
+    id: "13",
+    name: "Coffee",
+    image: "https://wendys.ky/wp-content/uploads/2019/03/image-6.jpeg",
+    category: "Beverages",
+    allergies: ["Vegetarian"],
+  },
+  {
+    id: "14",
+    name: "Bacon Egg & Cheese Biscuit",
+    image: "https://wendys.bs/wp-content/uploads/2022/10/2764_medium_US_en.png",
+    category: "Breakfast",
+    allergies: [],
+  },
 ];
 
 export function MenuScreen({
