@@ -17,7 +17,7 @@ export function QRScanScreen({ onContinue }: QRScanScreenProps) {
       className="min-h-screen bg-gradient-to-b from-[#FFFBEA] to-white flex flex-col items-center justify-center px-6"
     >
       <div className="flex flex-col items-center max-w-md w-full">
-        {/* Halal Shack Logo */}
+        {/* Wendy's Logo */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -26,8 +26,8 @@ export function QRScanScreen({ onContinue }: QRScanScreenProps) {
         >
           <div className="bg-white rounded-3xl p-6 shadow-lg">
             <img 
-              src="/halal.png" 
-              alt="The Halal Shack Logo" 
+              src="/wendys.png" 
+              alt="Wendy's Logo" 
               className="h-24 w-auto mx-auto"
             />
           </div>
@@ -52,7 +52,7 @@ export function QRScanScreen({ onContinue }: QRScanScreenProps) {
         >
           <div className="bg-white rounded-3xl p-8 shadow-lg">
             <img 
-              src={`https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=${encodeURIComponent('https://halalshack-menuos.vercel.app/')}`}
+              src={`https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=${encodeURIComponent('https://wendys-menuos.vercel.app/')}`}
               alt="QR Code to MenuOS - Scan with your phone"
               className="w-32 h-32 mx-auto"
             />

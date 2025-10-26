@@ -45,70 +45,70 @@ const menuItems: MenuItem[] = [
   {
     id: "1",
     name: "Dave's Single",
-    image: "/ricebowl.png",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop&crop=center",
     category: "Burgers",
     allergies: [],
   },
   {
     id: "2",
     name: "Dave's Double",
-    image: "/saladbowl.png",
+    image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=400&fit=crop&crop=center",
     category: "Burgers",
     allergies: [],
   },
   {
     id: "3",
     name: "Baconator",
-    image: "/friesbowl.png",
+    image: "https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=400&h=400&fit=crop&crop=center",
     category: "Burgers",
     allergies: [],
   },
   {
     id: "4",
     name: "Spicy Chicken Sandwich",
-    image: "/naanarito.png",
+    image: "https://images.unsplash.com/photo-1606755962773-d324e9b8a6b1?w=400&h=400&fit=crop&crop=center",
     category: "Chicken",
     allergies: [],
   },
   {
     id: "5",
     name: "Crispy Chicken Sandwich",
-    image: "/pitawrap.png",
+    image: "https://images.unsplash.com/photo-1562967914-608f82629710?w=400&h=400&fit=crop&crop=center",
     category: "Chicken",
     allergies: [],
   },
   {
     id: "6",
     name: "Chicken Nuggets",
-    image: "/naanadilla.png",
+    image: "https://images.unsplash.com/photo-1562967914-608f82629710?w=400&h=400&fit=crop&crop=center",
     category: "Chicken",
     allergies: [],
   },
   {
     id: "7",
     name: "Natural-Cut Fries",
-    image: "/hummus.png",
+    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=400&fit=crop&crop=center",
     category: "Fries & Sides",
     allergies: ["Vegetarian"],
   },
   {
     id: "8",
     name: "Caesar Side Salad",
-    image: "/ricebowl.png",
+    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=400&fit=crop&crop=center",
     category: "Salads",
     allergies: ["Vegetarian"],
   },
   {
     id: "9",
     name: "Chocolate Frosty",
-    image: "/saladbowl.png",
+    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=400&fit=crop&crop=center",
     category: "Frosty",
     allergies: ["Vegetarian"],
   },
   {
     id: "10",
     name: "Vanilla Frosty",
-    image: "/friesbowl.png",
+    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=400&fit=crop&crop=center",
     category: "Frosty",
     allergies: ["Vegetarian"],
   },
@@ -154,7 +154,7 @@ export function MenuScreen({
           {/* Wendy's Logo */}
           <div className="flex justify-center mb-3 sm:mb-4">
             <img 
-              src="/menupro-logo.svg" 
+              src="/wendys.png" 
               alt="Wendy's Logo" 
               className="h-8 sm:h-10 w-auto"
             />
